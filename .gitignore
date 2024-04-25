@@ -1,0 +1,18 @@
+# no *.o or *.a files
+*.a
+*.d
+*.o
+# no temporary files
+*~
+*swp
+# ignore all files in the bin/ directory
+bin/*.exe
+# only ignore the root TODO file, not
+subbdir/TODO
+/TODO
+# no *.txt files
+*.txt
+# but track input.txt
+! input.txt
+# ignore all *.txt files in the doc/ directory
+doc/*/*.txt
